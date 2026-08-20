@@ -1,40 +1,46 @@
-Visión del producto
-Plantilla del curso · Ingeniería de Software I · SIS3407 Este documento es el primer entregable del semestre y la base de todo lo que viene después. Se entrega completo en la semana 4 y se presenta ante el grupo.
 
-Cómo usarla: copia este archivo a tu repositorio como docs/vision-del-producto.md, borra las instrucciones en gris de cada apartado y escribe tu contenido en su lugar. Conserva los títulos.
-
-Vision del Producto.md
-
-Autor: Fecha de la última versión: Repositorio:
+Autor: Aldo Thomas Trejo
+Fecha de la última versión: 20/08/2026
+Repositorio: VaultofMusic
 
 1. Descripción del sistema
-Instrucción: nombre del sistema y qué hace, en un párrafo que cualquier persona entienda sin ser del área. Si necesitas usar una palabra técnica para explicarlo, todavía no está listo.
 
-Nombre del sistema:
+  Nombre del sistema: VaultofMusic_Managment
+  
+  Descripción:
 
-Descripción:
-
+  El sistema es un control de inventario y finanzas de la tienda de discos "Vault of Music". Llevara un registro de los productos en stock, los que han sido vendidos y las ganancias y costos de los mismos. 
+  Su principal objetivo será el ayudar al propietario y su socio a llevar las finanzas, analizando los costos por disco y de envío respecto a las ganancias por disco. También para así poder revisar rápidamente 
+  datos acerca de cada disco (artista, álbum, año de la edición, precio, condiciones) y poder eliminar del stock cuando se vendan, para así tener mayor facilidad al hacer pedidos y decidir si conseguir más material o no.
+  
 2. Problema y usuarios
-Instrucción: qué problema resuelve, a quién le sirve y, muy importante, qué hace esa gente hoy para arreglárselas sin el sistema. Esa última parte es la que revela el problema real.
 
-El problema:
+El problema: 
 
-Cómo se resuelve hoy sin el sistema:
+  Resuelve el problema que representa el no tener fácil acceso a los datos de cada disco, el número de discos en stock, no tener una forma asertiva de eliminar artículos del stock y sobre todo perder de vista la parte financiera del negocio. 
+
+Cómo se resuelve hoy sin el sistema: 
+
+  Actualmente el dueño y su socio lo resuelven utilizando hojas de Excel (que son muy tediosas y de uso lento), Google Notes o la memoria de los mismos involucrados. Esto genera un caos debido a que pueden olvidar la venta de un disco, su precio o parte de sus datos. 
+  También suelen equivocarse al ingresar datos y tienen que cambiar muchas partes para corregirlo y es muy usual que olviden hacer cambios.
 
 Usuarios del sistema:
+  
+  El propietario y su socio son los únicos que deben tener acceso al sistema. Ambos desempeñaran el mismo trabajo, por lo que solo hay 1 tipo de usuario.
 
 Tipo de usuario	Qué necesita del sistema	Qué le preocupa
-Instrucción: necesitas al menos dos tipos de usuario con necesidades distintas. Si los dos quieren exactamente lo mismo, probablemente sean el mismo usuario.
+
+  Ambos son administradores, por lo que tienen los mismos permisos y accesos. El sistema necesita tener una interfaz rápida y eficiente para poder ubicar productos en especifico y acceder a los datos de los discos rápidamente, y que estos se desplieguen de forma que sean fáciles
+  de leer. También un sistema que lleve la contabilidad y finanzas, debe ser programado de forma que lleve control del costo de cada disco, cuanto dinero se saca de ganancia por cada uno, costos en envío, otros gastos y la ganancia total de forma mensual. Todo lo anterior en una pestaña      especifica, además 
 
 Un conflicto entre usuarios:
 
-Instrucción: describe algo que un usuario quiera y que a otro le estorbe. Ahí está tu primera decisión de diseño real.
+  Al momento de introducir algún dato o actualizarlo, puede ser que ambos usuarios discrepen, introduzcan el dato erróneo y generen un caos en los datos. También que olviden reportar una venta física, o un costo mal calculado. 
+  Pueden haber dos discos de diferente edición o condición y los administradores pueden confundirlos. Puede haber errores al momento de tomar decisión de que discos mandar reabastecer, pueden haber duplicados o desacuerdos en las elecciones.
 
 3. Alcance
 Instrucción: lo que escribes en "fuera del alcance" es lo que después evita que el proyecto crezca sin control. Sé específico: "reportes" no dice nada, "reportes de ventas mensuales exportables a PDF" sí.
-
-Dentro del alcance
-Explícitamente fuera del alcance
+-tamente fuera del alcance
 Por qué queda fuera:
 
 Instrucción: para al menos una de las exclusiones, explica la razón. Puede ser tiempo, complejidad, o que no aporta al problema central.
@@ -42,15 +48,16 @@ Instrucción: para al menos una de las exclusiones, explica la razón. Puede ser
 4. Tipo de sistema y restricciones
 Instrucción: identifica de qué tipo es tu sistema y qué te obliga a garantizar ese tipo. Un sistema de información y un sistema crítico no se diseñan igual.
 
-Tipo de sistema:
+Tipo de sistema: De datos y análisis
 
-(De información · Embebido · Crítico · Web y SaaS · De datos y análisis)
 
-Por qué es de ese tipo:
+Por qué es de ese tipo: Debido a que el propósito del sistema es llevar el inventario y analizar las finanzas, es el tipo de sistema indicado para trabajar en este proyecto.
 
-Atributos de calidad que impone:
+Atributos de calidad que impone: El control de acceso y el manejo de datos es algo esencial para el sistema, además de la precisión que maneje la parte analítica. Con estos atributos el sistema podrá
+ser una herramienta útil para la tienda y hará que esta pueda desenvolverse mejor y tener ventaja sobre competidores que sigan trabajando a la antigua. Sin estos, los datos mostrados pueden llegar a ser erróneos
+y generar confusiones y perdidas. Si el sistema analítico fracasa, la contabilidad será equivocada y no se podrán tomar decisiones acertadas, lo que conlleva una posible perdida masiva de las ganancias.
 
-Atributo	Por qué importa en mi caso	Qué pasa si no se cumple
+
 Reglas de negocio que ya identifiqué:
 
 Instrucción: reglas que no son obvias desde fuera y que alguien que conoce el dominio tendría que explicarte. Si no encuentras ninguna, tu caso puede ser demasiado simple.
@@ -76,12 +83,9 @@ Por qué la descarté:
 Antes de entregar
 Reviso que el documento cumpla lo siguiente:
 
-[ ] La descripción del apartado 1 se entiende sin ser del área
-[ ] Hay al menos dos tipos de usuario con necesidades distintas
-[ ] Identifiqué un conflicto real entre usuarios
+
 [ ] El alcance dice qué queda fuera, no solo qué queda dentro
 [ ] Las exclusiones son específicas, no genéricas
-[ ] Identifiqué el tipo de sistema y al menos dos atributos de calidad
 [ ] Anoté al menos tres reglas de negocio no obvias
 [ ] Justifiqué el ciclo de vida contra dos alternativas descartadas
 [ ] El documento está en mi repositorio y se puede leer desde el navegador
