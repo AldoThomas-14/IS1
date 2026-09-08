@@ -6,7 +6,7 @@
 
 ---
 
-## 1. Descripción del sistema
+## 1. Descripción del sistema 
 
 **Nombre del sistema:** VaultofMusic_Managment
 
