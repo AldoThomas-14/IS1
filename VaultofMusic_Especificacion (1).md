@@ -104,12 +104,3 @@ Exige cerrar por completo los requisitos antes de empezar a construir, pero en e
 Es similar en flexibilidad al prototipado rápido, pero normalmente implica planear incrementos con alcance definido y revisarlos formalmente antes de pasar al siguiente. Al ser un proyecto para uso propio y de una sola persona, resulta más práctico ir construyendo y modificando el sistema directamente sobre la marcha, sin necesidad de planear y cerrar incrementos formales en cada ciclo.
 
 ---
-
-## Antes de entregar
-
-- [x] El alcance dice qué queda fuera, no solo qué queda dentro
-- [x] Las exclusiones son específicas, no genéricas
-- [x] Anoté al menos tres reglas de negocio no obvias
-- [x] Justifiqué el ciclo de vida contra dos alternativas descartadas
-- [ ] El documento está en mi repositorio y se puede leer desde el navegador
-- [x] Borré todas las instrucciones en cursiva de la plantilla
