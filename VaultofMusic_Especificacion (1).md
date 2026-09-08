@@ -1,4 +1,4 @@
-# VaultofMusic_Managment — Documento de especificación
+# VaultofMusic_Managment 
 
 **Autor:** Aldo Thomas Trejo
 **Fecha de la última versión:** 20/08/2026
