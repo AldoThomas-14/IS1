@@ -98,10 +98,10 @@ Al momento de introducir o actualizar un dato, puede ser que ambos usuarios disc
 ### Alternativas descartadas
 
 **Alternativa 1: Cascada (Waterfall)**
-*Por qué la descarté:* Exige cerrar por completo los requisitos antes de empezar a construir, pero en este proyecto es probable que el uso real en la tienda revele necesidades que no son evidentes desde el inicio (como el prorrateo de envíos). Un cambio tardío en cascada implicaría retroceder a la fase de análisis, lo cual es costoso e innecesario para un proyecto de este tamaño y de uso propio.
+Exige cerrar por completo los requisitos antes de empezar a construir, pero en este proyecto es probable que el uso real en la tienda revele necesidades que no son evidentes desde el inicio (como el prorrateo de envíos). Un cambio tardío en cascada implicaría retroceder a la fase de análisis, lo cual es costoso e innecesario para un proyecto de este tamaño y de uso propio.
 
 **Alternativa 2: Iterativo e incremental**
-*Por qué la descarté:* Es similar en flexibilidad al prototipado rápido, pero normalmente implica planear incrementos con alcance definido y revisarlos formalmente antes de pasar al siguiente. Al ser un proyecto para uso propio y de una sola persona, resulta más práctico ir construyendo y modificando el sistema directamente sobre la marcha, sin necesidad de planear y cerrar incrementos formales en cada ciclo.
+Es similar en flexibilidad al prototipado rápido, pero normalmente implica planear incrementos con alcance definido y revisarlos formalmente antes de pasar al siguiente. Al ser un proyecto para uso propio y de una sola persona, resulta más práctico ir construyendo y modificando el sistema directamente sobre la marcha, sin necesidad de planear y cerrar incrementos formales en cada ciclo.
 
 ---
 
