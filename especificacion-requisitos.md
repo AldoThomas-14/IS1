@@ -8,7 +8,7 @@
 
 ## 1. Propósito y alcance
 
-**Propósito del documento:** Especificar los requisitos funcionales y no funcionales de VaultofMusic_Managment, el sistema de control de inventario y finanzas de la tienda de discos Vault of Music. Va dirigido al propietario, a su socio (los dos usuarios del sistema) y a quien desarrolla el prototipo. El propietario es también el cliente: él confirma los requisitos.
+**Propósito del documento:** Especificar los requisitos funcionales y no funcionales de VaultofMusic_Managment, sistema de control de inventario y finanzas del emprendimiento de tienda de discos Vault of Music. Va dirigido al propietario, a su socio (los dos usuarios del sistema) y a quien desarrolla el prototipo, que en este caso es también el propietario, por lo que toda la información y requisitos son avalados por mí.
 
 **Alcance del sistema:**
 
