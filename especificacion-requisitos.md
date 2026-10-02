@@ -454,15 +454,3 @@ Los nombres de las pantallas son una propuesta; deben reemplazarse por los del p
 | RNF-REN-001 | Visión del producto; confirmado | CU-02 Buscar y consultar un disco | Pantalla de inventario con búsqueda y filtros |
 | RNF-USA-001 | Visión del producto; confirmado | CU-04 Registrar una venta | Pantalla de registro de venta |
 
-## 7. Registro de cambios
-
-| Fecha | Requisito | Qué cambió | Por qué |
-| --- | --- | --- | --- |
-| 01/10/2026 | RF-001, RF-006, RF-007, RF-013 | "Precio de venta" se separó en precio de lista (varía según el disco) y precio final de venta (lo cobrado, con al menos 70% de ganancia sobre el costo). | El término tenía dos significados. |
-| 01/10/2026 | RF-016 | Se dividió en RF-016 (acceso exclusivo), RF-017 (mismos permisos) y RF-018 (identificación de cada administrador). | Tenía más de una idea. |
-| 01/10/2026 | RF-004, RF-019, RF-020 | RF-004 pasó a ser el historial visible para ambos; se agregaron RF-019 (registro de cada cambio) y RF-020 (historial inalterable). | El dueño pidió un historial por campo, como los commits de GitHub. |
-| 01/10/2026 | RNF-INT-001, RNF-PRE-001 | Reemplazados por RNF-CON-001 y RNF-CON-002 dentro del atributo Confiabilidad; los identificadores anteriores no se reutilizan. | Coincidir con los atributos de calidad del curso. |
-| 01/10/2026 | RNF-SEG-002, RNF-SEG-003, RNF-CON-003, RNF-CON-004 | Requisitos nuevos de bloqueo por intentos fallidos, cifrado en tránsito, conservación ante fallas y disponibilidad. | El dueño alojará el sistema en un dominio propio, accesible por internet. |
-| 01/10/2026 | Todos los RNF | Cada ficha explica por qué se eligió su límite. | Hacer cada límite justificable. |
-| 01/10/2026 | Todos los RF | El campo Origen indica si es confirmado por el dueño o supuesto. | Distinguir lo confirmado de lo que sigue por verificar. |
-| 01/10/2026 | Sección 1 | Se agregaron al alcance el historial de cambios y el acceso por dominio propio; se agregó la tienda en línea pública como exclusión; la exclusión de la app móvil ya no se justifica por una sola computadora. | Coherencia con el alojamiento en dominio propio. |
