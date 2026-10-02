@@ -35,7 +35,7 @@
 
 | Usuario | Qué hace hoy sin el sistema | Qué espera del sistema |
 | --- | --- | --- |
-| Administrador (propietario y socio (ambos con el mismo rol y permisos) | Lleva el inventario y las finanzas en hojas de Excel, Google Notes o de memoria. Olvida ventas, precios o datos de un disco, se equivoca al capturar y no siempre aplica una corrección en todos los lugares donde correspondía. | Entrar al sistema desde el dominio de la tienda con su propia identificación; ubicar un disco rápido y consultar sus datos (artista, álbum, año, condición, precio); dar de baja del stock los discos vendidos; ver costo por disco, ganancia por disco, costos de envío, otros gastos y ganancia total mensual; revisar el historial de cambios de cada disco para saber qué cambió el otro administrador. |
+| Administrador (propietario y socio (ambos con el mismo rol y permisos) | Llevan el inventario y las finanzas en hojas de Excel, Google Notes o de memoria. Olvidan registrar ventas, precios o datos de un disco, se equivocan al capturar y no siempre aplican una corrección en todos los lugares donde correspondía. | Entrar al sistema desde el dominio de la tienda con su propia identificación; ubicar un disco rápido y consultar sus datos (artista, álbum, año, condición, precio); dar de baja del stock los discos vendidos; ver costo por disco, ganancia por disco, costos de envío, otros gastos y ganancia total mensual; revisar el historial de cambios de cada disco para saber qué cambió el otro administrador. |
 
 **Conflictos identificados entre usuarios:**
 
