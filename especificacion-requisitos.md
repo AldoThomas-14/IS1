@@ -4,7 +4,7 @@
 
 **Autor:** Aldo Thomas Trejo
 
-**Fecha de la última actualización:** 01/10/2026
+**Fecha:** 01/10/2026
 
 ## 1. Propósito y alcance
 
